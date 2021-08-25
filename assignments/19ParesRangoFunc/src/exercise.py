@@ -1,19 +1,6 @@
-
 def pares_rango(lim_inf, lim_sup):
-
-    if (lim_sup == lim_inf and lim_sup % 2 == 1):
-        print("No hay pares")
-    else:
-        if (lim_sup < lim_inf):
-            temp = lim_sup
-            lim_sup = lim_inf
-            lim_inf = temp
-
-        if (lim_inf % 2 == 1):
-            lim_inf += 1
-
-        for  x in range(lim_inf, lim_sup+1, 2):
-            print(x)
+    # Escribe aquí tu código
+    pass
 
 
 def main():
@@ -22,5 +9,5 @@ def main():
     pares_rango(lim_inf, lim_sup)
 
 
-if __name__=='__main__':
+if __name__ == '__main__':
     main()

@@ -14,21 +14,21 @@ if __name__ == '__main__':
 
 La línea `#escribe tu código abajo de esta línea` es un comentario, el programa la va a ignorar al ejecutarse.
 
-Escribe un programa que lea los valores enteros a y b y muestre todos los números pares que se encuentran desde a hasta b. 
-Supón que a < b. 
-Si a y/o b son pares, deben de ser incluidos. 
+Escribe un programa que lea los valores enteros a y b y muestre todos los números pares que se encuentran desde a hasta b.
+Supón que a < b.
+Si a y/o b son pares, deben de ser incluidos.
 El 0 es considerado par.
 
-**Entrada**  
+**Entrada**
 Los números enteros positivos a y b. Uno en cada renglón.
 
-**Salida**  
+**Salida**
 La lista de números pares que están dentro de ese rango (incluyendo los límites). Mostrar un número en cada renglón.
 
-**Ejemplos de ejecución del programa**  
-````
+**Ejemplos de ejecución del programa**
+```
 >>> 3
->>> 12	                        
+>>> 12
 4
 6
 8
